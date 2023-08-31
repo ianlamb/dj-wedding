@@ -5,6 +5,6 @@ export const Section: React.FC<{ className?: string; children?: JSX.Element | Ar
   children,
 }) => (
   <div className={`${className} w-full`}>
-    <div className="p-8 mx-auto max-w-[1200px]">{children}</div>
+    <div className="p-0 mx-auto max-w-[1200px]">{children}</div>
   </div>
 )

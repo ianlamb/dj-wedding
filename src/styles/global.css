@@ -1,3 +1,27 @@
 @tailwind base;
+@layer base {
+  html {
+    @apply text-plum;
+  }
+}
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+@font-face {
+  font-family: 'Baroque Script';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url(/fonts/BaroqueScript.ttf) format("truetype");
+}
+
+a {
+  @apply text-steel;
+}
+
+a:hover {
+  @apply underline;
+}

@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        gold: '#C9A655',
         cream: '#F1EBE2',
         rose: '#E6C9C3',
         beige: '#D0BFAA',
@@ -14,7 +15,10 @@ module.exports = {
         plum: '#3E2F39',
         slate: '#787178',
         navy: '#172434',
-      }
+      },
+      fontFamily: {
+        'fancy': ['"Baroque Script"', 'cursive'],
+      },
     },
   },
   plugins: [],

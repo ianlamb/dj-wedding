@@ -12,28 +12,30 @@ const pageStyles = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <Section className="flex items-center text-center text-gold">
+      <Section className="flex items-center text-center text-gold px-8">
+        <div className="mb-24 lg:mb-0 lg:float-left">
+          <h1 className="text-3xl lg:text-4xl font-fancy leading-[2] my-24 lg:my-36">
+            Stacey Dominique
+            <br />
+            and
+            <br />
+            Jeffrey James
+          </h1>
+          <p className="text-xl">
+            We're getting married, join us in celebration!
+            <br />
+            <br />
+            <strong>Sunday, November 12th, 2023</strong>
+            <br />
+            <strong>The Four Seasons Resort, Orlando Florida</strong>
+          </p>
+        </div>
         <StaticImage
           src="../images/headshots_2.jpg"
           alt="Headshots"
           placeholder="blurred"
           className="w-full max-h-[100vh] lg:float-right lg:w-[50%]"
         />
-        <h1 className="text-4xl font-fancy leading-[2] my-36">
-          Stacey Dominique
-          <br />
-          and
-          <br />
-          Jeffrey James
-        </h1>
-        <p className="text-xl">
-          We're getting married, join us in celebration!
-          <br />
-          <br />
-          <strong>Sunday, November 12th, 2023</strong>
-          <br />
-          <strong>The Four Seasons Resort, Orlando Florida</strong>
-        </p>
         <div className="clear-both"></div>
         <Divider className="mt-16" />
       </Section>
@@ -48,7 +50,7 @@ const IndexPage: React.FC<PageProps> = () => {
             }}
           />
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12 lg:mb-0">
           <div className="">
             <h3 className="text-3xl mb-2">Wedding Venue</h3>
             <p className="text-lg">

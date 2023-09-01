@@ -38,6 +38,10 @@ const IndexPage: React.FC<PageProps> = () => {
       </Section>
       <Section className="py-12 px-8">
         <h2 className="text-4xl font-bold mb-6">The Event</h2>
+        <p className="text-lg mb-6">
+          Please RSVP by emailing{' '}
+          <a href="mailto:wedding@scsporter.com">wedding@scsporter.com</a>
+        </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="">
             <h3 className="text-3xl mb-2">Wedding Venue</h3>

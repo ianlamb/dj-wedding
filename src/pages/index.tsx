@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps> = () => {
           className="w-full max-h-[100vh] lg:float-right lg:w-[50%]"
         />
         <div className="clear-both"></div>
-        <Divider className="mt-16" />
+        <Divider className="mt-16 mb-8 hidden lg:flex" />
       </Section>
       <Section className="py-12 px-8">
         <h2 className="text-4xl font-bold mb-6">The Event</h2>
@@ -155,4 +155,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Porter Trunick Wedding</title>

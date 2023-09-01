@@ -1,5 +1,6 @@
 import React from 'react'
+import DividerSVG from '../../assets/divider.svg'
 
 export const Divider: React.FC<{ className?: string }> = ({
   className = '',
-}) => <hr className={`${className} bg-gold h-[3px] w-full`} />
+}) => <div className={`${className} w-full flex justify-center`}><DividerSVG className="w-full max-w-[600px] h-auto" /></div>

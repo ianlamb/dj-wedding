@@ -10899,6 +10899,11 @@ react-modal@^3.8.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
+react-obfuscate@^3.6.9:
+  version "3.6.9"
+  resolved "https://registry.yarnpkg.com/react-obfuscate/-/react-obfuscate-3.6.9.tgz#ca87f731db575e52288680e08de266fddafdcb3e"
+  integrity sha512-WteD1ZBuuyGuzvzt0pVSYS9FRodB5PDFSWUTKFs2QHez4Ud3N4K1+1vyMAYg88DPeKvmzvgoLSTCsKvJhwOz+A==
+
 react-polyglot@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-polyglot/-/react-polyglot-0.7.2.tgz#b0277688c6d26eaff3312774738859cac53a227c"

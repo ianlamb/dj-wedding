@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Obfuscate from 'react-obfuscate'
 import type { HeadFC, PageProps } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Section } from '../components/Section'
@@ -40,7 +41,12 @@ const IndexPage: React.FC<PageProps> = () => {
         <h2 className="text-4xl font-bold mb-6">The Event</h2>
         <p className="text-lg mb-6">
           Please RSVP by emailing{' '}
-          <a href="mailto:wedding@scsporter.com">wedding@scsporter.com</a>
+          <Obfuscate
+            email="wedding@scsporter.com"
+            headers={{
+              subject: 'Porter Trunick Wedding RSVP',
+            }}
+          />
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="">
